@@ -1,0 +1,171 @@
+<html lang="ko">
+
+<head>
+
+  <title>곡용의 부트스트랩을 이용한 페이지</title>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <style>
+ .header{ 
+  margin: 0 !important;
+    overflow: hidden;
+    position: fixed;
+    transform: translateZ(0);
+    width: 100%;
+    z-index: 40;}
+  .header_nav{
+    position: relative;
+    width: 100%;
+    height: 4.4rem;
+    font-size: 1.7rem;
+    text-align: center;
+    background: #fff;
+    border-bottom: 1px solid #e6e6e6;
+    margin: 0;
+    z-index: 20;
+}
+.header_contents{
+  position: relative;
+    max-width: 37.5rem;
+    margin: 0 auto;
+}
+.head_logo{
+  position: absolute;
+    text-align: center;
+    top: 15;
+    right: 4.4rem;
+    width: calc(100% - 8.8rem);
+    height: 4.4rem;
+    z-index: 10;
+}
+.logo_img{
+      width: 100%;
+    display: inline-block;
+  }
+.head_menu1{
+  position: absolute;
+    top: 0;
+    z-index: 20;
+ 
+}
+.bell{
+      border: none;
+    background: none;
+    width: 4.4rem;
+    height: 4.4rem;
+  }
+.button{
+  outline: none;
+    cursor: pointer;
+  }
+.head_menu2{
+   position: absolute;
+    top: 0;
+    z-index: 20;
+  right: 0;
+ 
+}
+.mymenu{
+   border: none;
+    background: none;
+    width: 4.4rem;
+    height: 4.4rem;
+}
+
+ .bottom_menu{
+  background:#fff;
+  border-top:.1rem solid #e6e6e6;
+  position:fixed;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index:20;
+}
+.bottom_nav{
+  width:100%;
+  max-width:76.8rem;
+  height:3.5rem;
+  display:flex;
+  margin:auto;
+}
+.menu1{
+  text-decoration: none;
+    width: 20%;
+    min-width: 20%;
+    height: 100%;
+    display: block;
+    padding: .3rem 0 .2rem;
+    position: relative;
+    text-align: center;
+}
+.menu_img{
+    width: 4rem;
+    height: 1.5rem;
+    margin: 0 auto;
+    position: relative;
+}
+</style>
+
+
+
+</head>
+
+<body>
+  <section class="header">
+    <header class="header_nav">
+      <div class="header_contents">
+      <div class="head_logo">
+        <a href="#" class="logo_img">
+          <img src="undonghanglogo.png">
+        </a>
+      </div>
+      <div class="head_menu1">
+        <button class="bell">
+          <img src="https://yaimg.yanolja.com/joy/sunny/static/images/my/ic-system-winner-36.svg">
+        </button>
+      </div>
+      <div class="head_menu2">
+        <button class="mymenu">
+          <img src="https://yaimg.yanolja.com/joy/sunny/static/images/btn-home-v7.svg">
+        </button>
+      </div>
+    </header>
+  </section>
+
+
+ <aside class="bottom_menu">
+  <nav class="bottom_nav">
+    <a href="#" class="menu1">
+      <div class="menu_img"><img src="https://yaimg.yanolja.com/joy/sunny/static/images/btn-home-v7.svg"></div>
+      <span class="_132DHn">홈</span>
+    </a>
+    <a href="#" class="menu1">
+      <div class="menu_img"><img src="https://yaimg.yanolja.com/joy/sunny/static/images/btn-home-v7.svg"></div>
+      <span class="_132DHn">동행행</span>
+    </a>
+    <a href="#" class="menu1">
+      <div class="menu_img"><img src="https://yaimg.yanolja.com/joy/sunny/static/images/btn-home-v7.svg"></div>
+      <span class="_132DHn">도전행</span>
+    </a>
+    <a href="#" class="menu1">
+      <div class="menu_img"><img src="https://yaimg.yanolja.com/joy/sunny/static/images/btn-home-v7.svg"></div>
+      <span class="_132DHn">발전행</span>
+    </a>
+    <a href="#" class="menu1">
+      <div class="menu_img"><img src="https://yaimg.yanolja.com/joy/sunny/static/images/btn-home-v7.svg"></div>
+      <span class="_132DHn">스토어</span>
+    </a>
+
+
+  </nav> 
+ </aside>
+</body>
+</html>
+
